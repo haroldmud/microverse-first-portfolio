@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-color: #191765;
+  font-family: "Trirong", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #9390ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 128, 128);
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+h4 {
+  margin-top: 26px;
+  color: aliceblue;
+}
+
+.navigation_bar {
+  display: flex;
+  top: 10px;
+}
+
+.email_icon {
+  width: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  margin-right: 26px;
+}
+
+.link:hover {
+  border-bottom: blue solid 2px;
+}
+
+.website_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./icon/circle1.svg);
+  background-size: 1000px;
+  background-position: 12rem;
+  background-repeat: no-repeat;
+}
+
+.first_head {
+  align-items: center;
+  margin-top: 130px;
+  padding-bottom: 0%;
+  color: #9390ff;
+  font-size: 70px;
+  font-weight: 700;
+  border-collapse: collapse;
+}
+
+.Second_head {
+  color: aliceblue;
+  font-size: 30px;
+  left: 550px;
+  margin-top: -35px;
+}
+
+.introduction {
+  margin-bottom: 40px;
+  padding-left: 15px;
+  color: #b3bac5;
+}
+
+table {
+  color: aliceblue;
+  font-size: small;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 200px;
+  width: 400px;
+  border-top: 1px solid #646369;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #646369;
+}
+
+.t_head {
+  font-weight: bold;
+  font-size: medium;
+  color: #9390ff;
+}
+
+#word_with_arrow {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left_word_with_arrow {
+  color: white;
+  font-size: 20px;
+}
+
+.right_word_with_arrow {
+  color: white;
+  font-size: 20px;
+}
+
+#first_arrow {
+  width: 20px;
+}
+
+#second_arrow {
+  width: 20px;
+  margin-right: 10px;
+}
