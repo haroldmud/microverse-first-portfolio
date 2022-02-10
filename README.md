@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello world
+# Portfolio
 
-> hello world project.
+> microverse portfolio project
 
 ## Built With
 
