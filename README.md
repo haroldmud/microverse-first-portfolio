@@ -27,8 +27,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- git clone \<project name>
-- cd \<project name>
+- git clone \<first microverse-portfolio>
+- cd \<first microverse-portfolio>
 
 ### Install
 
@@ -45,8 +45,8 @@ To get a local copy up and running follow these simple example steps.
 👤 **Harold**
 
 - GitHub: [@haroldmud](https://hargithub.com/haroldmud)
-- Twitter: [@mudosaharold](https://twitter.com/twitterhandle)
-- LinkedIn: [@haroldmudosa](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@mudosaharold](https://twitter.com/MudosaHarold)
+- LinkedIn: [@haroldmudosa](https://www.linkedin.com/in/harold-mudosa-40124021b/)
 
 <!-- 👤 **Author2**
 
