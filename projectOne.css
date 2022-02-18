@@ -1,3 +1,26 @@
+.work_section {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .work_section {
+    display: flex;
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 100px;
+  }
+
+  .word_work {
+    color: white;
+    font-size: 20px;
+  }
+
+  #third_arrow {
+    width: 20px;
+    margin-right: 20px;
+  }
+}
+
 .link_menu {
   display: none;
 }
@@ -7,7 +30,7 @@
     display: flex;
     border: none;
     position: absolute;
-    margin-right: -18rem;
+    margin-right: -25rem;
     border-radius: 8px;
     align-items: center;
     flex-direction: column;
@@ -114,6 +137,7 @@ h4 {
 
 .website_body {
   display: flex;
+  padding-left: 50px;
   flex-direction: column;
   align-items: center;
   background-image: url(./icon/circle1.svg);
@@ -125,6 +149,7 @@ h4 {
 @media (max-width: 768px) {
   .website_body {
     background-position: -27rem;
+    margin-left: 50px;
   }
 }
 
@@ -152,17 +177,16 @@ h4 {
 
 .Second_head {
   color: aliceblue;
-  font-size: 30px;
+  font-size: 23px;
   left: 550px;
   margin-top: -35px;
 }
 
 .introduction {
   margin-bottom: 40px;
-  padding-left: 15px;
   color: #b3bac5;
   text-align: center;
-  font-size: small;
+  font-size: 15px;
 }
 
 .table {
@@ -249,13 +273,13 @@ h4 {
 
 @media (max-width: 768px) {
   .bottom_links {
-    margin-right: 35px;
+    margin-right: -70px;
   }
 }
 
 section {
   padding-top: 20px;
-  margin: 5px 50px;
+  margin: 5px 5px;
   background-color: #191765;
   background-image: url(./icons/Group_65.svg);
 }
@@ -266,7 +290,6 @@ section {
   margin-top: 25px;
   font-weight: 700;
   font-size: 20px;
-  margin-left: 50px;
   color: #9390ff;
   font-family: sans-serif;
 }
@@ -274,19 +297,20 @@ section {
 @media (max-width: 768px) {
   .main_header {
     margin-left: 25px;
-    font-size: 50px;
+    font-size: 40px;
+    padding-bottom: 35px;
   }
 }
 
 .first_grid {
-  display: flex;
+  display: grid;
   padding-top: 50px;
 }
 
 @media (max-width: 768px) {
   .first_grid {
-    margin-left: -25px;
-    flex-direction: column;
+    margin-left: 12px;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -368,5 +392,9 @@ a:hover {
 @media (max-width: 768px) {
   .submit_1 {
     margin-top: 15px;
+  }
+
+  .submit_1:hover {
+    background-color: darkviolet;
   }
 }
