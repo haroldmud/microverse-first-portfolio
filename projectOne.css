@@ -271,9 +271,17 @@ h4 {
   }
 }
 
+.cards_parent {
+  display: grid;
+}
+
 @media (max-width: 768px) {
   .bottom_links {
     margin-right: -70px;
+  }
+
+  .cards_parent {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -358,6 +366,8 @@ a:hover {
 }
 
 .nav_1 {
+  text-decoration: none;
+  color: white;
   margin-left: -35px;
   border-right: solid 1px rgba(255, 255, 255, 0.562);
   padding-right: 20px;
@@ -365,6 +375,8 @@ a:hover {
 }
 
 .nav_2 {
+  text-decoration: none;
+  color: white;
   border-right: solid 1px rgba(255, 255, 255, 0.562);
   padding-left: 20px;
   padding-right: 20px;
@@ -372,6 +384,8 @@ a:hover {
 }
 
 .nav_3 {
+  text-decoration: none;
+  color: white;
   border-right: solid 1px rgba(255, 255, 255, 0.562);
   padding-left: 20px;
   padding-right: 20px;
@@ -379,6 +393,8 @@ a:hover {
 }
 
 .nav_4 {
+  text-decoration: none;
+  color: white;
   padding-left: 20px;
 }
 
