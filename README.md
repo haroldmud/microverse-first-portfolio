@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> microverse portfolio project
+> microverse portfolio project.
 
 ## Built With
 
