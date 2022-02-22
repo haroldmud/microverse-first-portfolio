@@ -495,3 +495,8 @@ textarea {
   color: #191765;
   font-weight: 400;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
