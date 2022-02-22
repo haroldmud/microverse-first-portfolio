@@ -1,22 +1,22 @@
 {
-  "name": "hello-microverse",
+  "name": "microverse-first-portfolio",
   "version": "1.0.0",
-  "description": "microverse project",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haroldmud/hello-microverse.git"
+    "url": "git+https://github.com/haroldmud/microverse-first-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haroldmud/hello-microverse/issues"
+    "url": "https://github.com/haroldmud/microverse-first-portfolio/issues"
   },
-  "homepage": "https://github.com/haroldmud/hello-microverse#readme",
+  "homepage": "https://github.com/haroldmud/microverse-first-portfolio#readme",
   "devDependencies": {
     "hint": "^6.1.9",
     "stylelint": "^13.13.1",
