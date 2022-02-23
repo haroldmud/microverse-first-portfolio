@@ -63,6 +63,7 @@ body {
   body {
     margin: 0;
     padding: 0;
+    margin-right: -96px;
   }
 }
 
@@ -273,6 +274,7 @@ h4 {
 
 .cards_parent {
   display: grid;
+  margin-left: 50px;
 }
 
 @media (max-width: 768px) {
@@ -426,8 +428,24 @@ a:hover {
 form {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
+  margin-left: 100px;
+}
+
+.contact_intro {
+  margin-left: 50px;
+}
+
+.mobile {
+  color: #9390ff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 100px;
+}
+
+.text {
+  text-align: center;
+  margin-left: 50px;
 }
 
 input {
@@ -478,18 +496,18 @@ textarea {
   font-size: 30px;
 }
 
-/* .lines {
-  content: "";
-  width: 30%;
-  height: 5px;
-  background-color: #030303;
-  margin: 8px auto;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-} */
+.footer {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer_links {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin-left: 60px;
+  font-size: 30px;
+}
 
 #email {
   color: #191765;
@@ -499,4 +517,33 @@ textarea {
 .contact-form {
   display: flex;
   flex-direction: column;
+}
+
+.bottom_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.mail {
+  margin-left: 90px;
+  margin-top: -46px;
+}
+
+.line {
+  content: "";
+  width: 80%;
+  height: 5px;
+  background-color: #030303;
+  margin: 8px auto;
+  border-radius: 5px;
+}
+
+.cross {
+  content: "";
+  width: 500px;
+  height: 1px;
+  background-color: #3a3837;
+  margin: 8px auto;
 }
