@@ -63,6 +63,7 @@ body {
   body {
     margin: 0;
     padding: 0;
+    margin-right: -96px;
   }
 }
 
@@ -273,6 +274,7 @@ h4 {
 
 .cards_parent {
   display: grid;
+  margin-left: 50px;
 }
 
 @media (max-width: 768px) {
@@ -430,7 +432,7 @@ form {
 }
 
 .contact_intro {
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .mobile {
@@ -438,7 +440,7 @@ form {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin-left: 55px;
+  margin-left: 100px;
 }
 
 .text {
@@ -499,11 +501,11 @@ textarea {
   justify-content: space-around;
 }
 
-.footer .links {
+.footer_links {
   display: flex;
   padding: 20px;
   align-items: center;
-  justify-content: space-around;
+  margin-left: 60px;
   font-size: 30px;
 }
 
@@ -525,8 +527,8 @@ footer {
 }
 
 .mail {
-  padding-left: 50px;
-  margin-top: -10px;
+  margin-left: 90px;
+  margin-top: -46px;
 }
 
 .line {
