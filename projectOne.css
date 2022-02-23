@@ -519,7 +519,7 @@ textarea {
   flex-direction: column;
 }
 
-footer {
+.bottom_footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
