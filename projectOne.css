@@ -426,8 +426,24 @@ a:hover {
 form {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
+  margin-left: 100px;
+}
+
+.contact_intro {
+  margin-left: 40px;
+}
+
+.mobile {
+  color: #9390ff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 55px;
+}
+
+.text {
+  text-align: center;
+  margin-left: 50px;
 }
 
 input {
@@ -478,18 +494,18 @@ textarea {
   font-size: 30px;
 }
 
-/* .lines {
-  content: "";
-  width: 30%;
-  height: 5px;
-  background-color: #030303;
-  margin: 8px auto;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-} */
+.footer {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer .links {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
 
 #email {
   color: #191765;
@@ -499,4 +515,33 @@ textarea {
 .contact-form {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.mail {
+  padding-left: 50px;
+  margin-top: -10px;
+}
+
+.line {
+  content: "";
+  width: 80%;
+  height: 5px;
+  background-color: #030303;
+  margin: 8px auto;
+  border-radius: 5px;
+}
+
+.cross {
+  content: "";
+  width: 500px;
+  height: 1px;
+  background-color: #3a3837;
+  margin: 8px auto;
 }
