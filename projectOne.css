@@ -388,11 +388,19 @@ h4 {
     margin-left: 12px;
   }
 
+  #cards_2 {
+    margin-left: 12px;
+  }
+
   #grid-child {
     margin-left: 10px;
   }
 
   #first_grid-child {
+    margin-left: 12px;
+  }
+
+  #first_grid-childs {
     margin-left: 12px;
   }
 }
